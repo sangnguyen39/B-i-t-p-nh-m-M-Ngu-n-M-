@@ -1,0 +1,196 @@
+/* style.css */
+
+/* Reset một số thuộc tính mặc định */
+body, h1, h2, h3, p, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+}
+/* Định dạng cho body */
+body {
+    background-color: #f7f8f3;
+    color: #333;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.sidebar ul li a { 
+    text-decoration: none;
+    color: #002c3e;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.sidebar h2 { 
+    font-size: 1.45em;
+    margin-bottom: 50px;
+    color: #444;
+}
+.sidebar {
+    width: 300px;
+    background-color: #f7f8f3;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+.thong_tin_admin{ 
+    align-items: end;
+    margin-top: 27rem;
+
+}
+/* Định dạng cho main */
+main {
+    padding: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+/* Định dạng cho các section */
+
+
+/* Định dạng cho bảng */
+section {
+        max-width: 1500px;
+        height: auto;
+        margin-bottom: 10px;
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: inline-flex;
+        position:sticky;
+        background-color: #f7f8f3;
+        font-size: larger;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+        width: 219.28px;
+        height: 76px;
+    }
+    .card1 {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 37px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 369px;
+        height: 207px;
+    }
+    .card2{
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 37px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 450px;
+    }
+
+    .card h3 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .card p {
+        margin-bottom: 5px;
+    }
+
+    .card .data {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card .data .value {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .card .data .icon {
+        font-size: 50px;
+        color: #0044ff;
+    }
+
+    .card .chart-container {
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .card .chart {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card .chart-container canvas {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card .actions {
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .card .actions button {
+        background : #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+
+    .card .actions button:hover {
+        background-color: #0056b3;
+    }
+    table td { 
+        padding: 10px;
+    }
+    .list{
+        justify-content: space-between;
+        font-size: 16px;
+    }
+    .list_title th{
+        font-size: 18px;
+        padding:10px;
+    }
+   
+/* Định dạng cho footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f7f8f3;
+    color: #002c3e;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+

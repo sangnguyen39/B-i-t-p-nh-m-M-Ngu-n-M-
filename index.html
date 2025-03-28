@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo-section">
+            <img src="logo.jpg" alt="HUB Logo">
+        </div>
+        <div class="form-section">
+            <h2>Đăng nhập</h2>
+            <form action="login.php" method="POST">
+                <div class="form-group">
+                    <label for="username">Tên tài khoản</label>
+                    <input type="text" id="username" name="username" placeholder="Nhập tên tài khoản" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mật khẩu</label>
+                    <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required>
+                </div>
+                <div class="form-group remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Ghi nhớ đăng nhập lần sau</label>
+                </div>
+                <button type="submit" class="login-button">Đăng nhập</button> <br> <br> 
+            </form>
+            <form action="register.html"><button type="submit" class="login-button"  style="background-color: rgb(247, 55, 55);">Đăng ký</button></form>
+        </div>
+    </div>
+</body>
+</html>

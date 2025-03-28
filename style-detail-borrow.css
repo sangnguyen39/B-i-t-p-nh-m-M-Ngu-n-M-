@@ -1,0 +1,255 @@
+/* style.css */
+
+/* Reset một số thuộc tính mặc định */
+body, h1, h2, h3, p, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Định dạng cho body */
+body {
+    background-color: #f7f8f3;
+    color: #333;
+}
+
+/* Định dạng cho header */
+header {
+    background-color: #f7f8f3;
+    color: #444;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Định dạng cho nav */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+}
+
+nav ul li a {
+    color:#444 ;
+    text-decoration: none;
+    font-size: larger;
+}
+header nav ul li a { 
+    color: #444;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* Định dạng cho main */
+main {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+}
+/* Định dạng cho các section */
+.section1, .section2 {
+    margin-bottom: 10px;
+    border: 0px; /* Bỏ đường viền */
+    color: #002c3e;
+    
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.sidebar ul li a { 
+    text-decoration: none;
+    color: #002c3e;
+    font-size: 18px;
+}
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.sidebar h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #444;
+    text-align: center;
+    margin-top: 5px;
+}
+.sidebar {
+    width: 250px;
+    background-color: #f7f8f3;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+.infor_user{ 
+    align-items: end;
+    margin-top: 27rem;
+}
+/* Định dạng cho bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: larger;
+    color: #444;
+}
+
+table td {
+    padding: 5px;
+    border: 0px ;
+    color: #002c3e;
+    font-size: 14px;
+}
+table td a { 
+    color: #002c3e;
+    font-style: italic;
+    text-decoration: none;
+    font-size: larger;
+}
+
+section {
+        max-width: 1600px;
+        height: auto;
+        margin-bottom: 10px;
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: inline-flex;
+        position:sticky;
+        background-color: #f7f8f3;
+        font-size: larger;
+    }
+.section1 {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    background-color: #f7f8f3;
+    margin: 0 auto;   
+}
+.section2{
+   
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f8f3;
+ 
+
+}
+
+.detail img{ 
+    width: 350px;
+    margin-right: 20px;
+}
+
+.btn1 { 
+    padding: 10px 10px;
+    background-color: #444;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.btn2{
+    padding: 10px 10px;
+    background-color: #444;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.btn2 a { 
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.modal {
+    display: none; /* Ẩn cửa sổ nhỏ mặc định */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    padding: 30px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 25px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+.modal-content h2 { 
+    text-align: center;
+    margin-bottom: 10px;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.muon_sach input { 
+    padding: 10px 10px; 
+    margin-bottom: 5px;
+    background-color:#fefefe;
+    border: 1px solid #002c3e;
+    border-radius: 3px;
+    color: #002c3e;
+}
+.muon_sach button { 
+    padding: 10px 10px;
+    margin-top: 5px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Định dạng cho footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f7f8f3;
+    color: #002c3e;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+

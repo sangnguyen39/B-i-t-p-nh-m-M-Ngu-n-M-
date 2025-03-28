@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body, h1, h2, h3, p, table {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #f7f8f3;
+    color: #333;
+}
+
+header {
+    background-color: #f7f8f3;
+    color: #444;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+}
+
+header nav ul li a { 
+    color: #444;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+}
+
+nav li:hover .dropdown {
+    display: block;
+}
+/* Reset một số thuộc tính mặc định */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.sidebar ul li a { 
+    text-decoration: none;
+    color: #002c3e;
+    font-size: 18px;
+}
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.sidebar h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #444;
+    text-align: center;
+    margin-top: 5px;
+}
+.sidebar {
+    width: 250px;
+    background-color: #f7f8f3;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+.infor_user{ 
+    align-items: end;
+    margin-top: 27rem;
+}
+
+
+/* Định dạng cho main */
+main {
+    padding: 20px;
+}
+
+/* Định dạng cho các section */
+.section1, .section2 {
+    margin-bottom: 10px;
+    border: 0px; /* Bỏ đường viền */
+    color: #002c3e;
+    
+}
+
+/* Định dạng cho bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: larger;
+    color: #002c3e;
+}
+
+
+table td {
+    padding: 5px;
+    border: 0px ;
+    color: #002c3e;
+    font-size: 14px;
+}
+table tr td a { 
+    color: #002c3e;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+        max-width: 1550px;
+        height: auto;
+        margin-bottom: 10px;
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: inline-flex;
+        position:sticky;
+        background-color: #f7f8f3;
+        font-size: larger;
+}
+.section1 {
+width: fit-content;
+height: auto;
+display: inline-block;
+background-color: #f7f8f3;
+margin: 0 auto;   
+}
+.section2{
+width: 100%;
+height: auto;
+display: inline-block;
+background-color: #f7f8f3;
+margin: 0 auto;
+}
+
+.search-results { 
+margin: 0 auto;
+width: 100%; 
+}
+.books {
+display: flex; /* Sử dụng flexbox để sắp xếp các sách */
+flex-wrap: wrap; /* Cho phép các sách xuống dòng nếu không đủ chỗ */
+gap: 15px; /* Khoảng cách giữa các sách */
+}
+
+.book {
+flex: 1 1 200px; /* Chiều rộng tối thiểu là 200px, có thể mở rộng */
+max-width: 50%; /* Chiều rộng tối đa là 200px */
+text-align: center; /* Căn giữa nội dung */
+}
+
+.book img {
+max-width: 75%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của thẻ card */
+height: 75%;
+object-fit: cover; /* Bo góc hình ảnh */
+}
+
+.book p {
+    font-size: larger;
+    margin: 10px 0 5px;
+    color: #002c3e;
+}
+.book a { 
+    text-decoration: none;
+    
+}
+/* Định dạng cho danh sách sách */
+#availableBooks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container{text-align: center; justify-content: space-between; display: flex;}
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 15rem); /* Sử dụng repeat() để đơn giản hóa */
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    padding: 5px;
+}
+.card {
+    margin: 15px;
+    padding: 15px;
+    width: fit-content; /* Đặt chiều rộng cho thẻ card */
+    text-align: center;
+    font-size: 12px;
+}
+
+.card img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của thẻ card */
+    height: 75%;
+    object-fit: cover;
+}
+.card h2 {
+font-size: 18px;
+margin: 10px 0 5px;
+color: #002c3e;
+}
+.card h3 {
+    font-size: 16px;
+    color: #002c3e;
+}
+table{   
+    border-collapse: collapse;
+    width: 300px;
+}
+tr, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 18px;
+    border: 0;
+}
+table tr td a{
+    font-size: 18px;
+}
+table caption {
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+.card a {
+    text-decoration: none;
+}
+
+
+/* Định dạng cho footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f7f8f3;
+    color: #002c3e;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
